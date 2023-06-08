@@ -1,55 +1,58 @@
-<!DOCTYPE <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-    />
-  </head>
-  <body>
-    <div class="container">
-      <div class="title">
-        <h2>Login here</h2>
-      </div>
-      <form action="">
-        <div class="row">
-          <span><i class="fa-solid fa-envelope"></i></span>
-          <input type="text" class="email" placeholder="Email or username" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
 
-          <span class="emailErr"></span>
+<body>
+
+    <div class="container">
+        <div class="title">
+            <h2>Login here</h2>
         </div>
-        <div class="row">
-          <span><i class="fa-solid fa-lock"></i></span>
-          <input type="password" class="email" placeholder="Password" />
+        <form action="" class="form">
+            <div class="row">
+                <span><i class="fa-solid fa-envelope"></i></span>
+                <input type="text" class="email" placeholder="Email or username" />
+                <h1 class="emailErr">*</h1>
+            </div>
+            <div class="row">
+                <span><i class="fa-solid fa-lock"></i></span>
+                <input type="password" class="password" class="pasword" placeholder="Password" />
+                <h1 class="passwordErr">*</h1>
+
+            </div>
+            <div class="row">
+                <input type="submit" class="submit" value="Signin" />
+            </div>
+        </form>
+        <div class="action">
+            <div class="forget-password">
+                <p>don't have account <a href="#">create Account</a></p>
+            </div>
+            <div class="login-with">
+                <ul>
+                    <li>
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa-brands fa-google"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa-brands fa-github"></i></a>
+                    </li>
+                </ul>
+            </div>
         </div>
-        <div class="row">
-          <input type="submit" value="Signin" />
-        </div>
-      </form>
-      <div class="action">
-        <div class="forget-password">
-          <p>don't have account <a href="#">create Account</a></p>
-        </div>
-        <div class="login-with">
-          <ul>
-            <li>
-              <a href="#"><i class="fa-brands fa-facebook"></i></a>
-            </li>
-            <li>
-              <a href="#"><i class="fa-brands fa-google"></i></a>
-            </li>
-            <li>
-              <a href="#"><i class="fa-brands fa-github"></i></a>
-            </li>
-          </ul>
-        </div>
-      </div>
     </div>
-  </body>
-  <script src="main.js"></script>
+
+    <script src="script.js"></script>
+</body>
+
 </html>

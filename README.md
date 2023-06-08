@@ -6,7 +6,6 @@ This is a simple login form application built using HTML, CSS, and JavaScript. T
 
 - User-friendly login form interface.
 - JavaScript validation for input fields to enforce data integrity.
-- Validation checks for username and password length.
 - Display of error messages for invalid input.
 - Submit button to process the login request.
 
@@ -24,9 +23,7 @@ This is a simple login form application built using HTML, CSS, and JavaScript. T
 
 3. Enter your username and password in the provided input fields.
 
-4. If the input does not meet the required criteria (e.g., minimum length), an error message will be displayed.
-
-5. Once the input is valid, click the "Submit" button to process the login request.
+4. Once the input is valid, click the "Submit" button to process the login request.
 
 ## Customization
 
