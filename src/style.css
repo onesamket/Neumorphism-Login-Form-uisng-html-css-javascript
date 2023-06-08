@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+  }
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-shadow: center;
+  
+    background: #e8e3f0;
+  }
+  .container {
+    width: 450px;
+    height: 450px;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3), -2px -2px 2px #ffffff;
+    text-align: center;
+  }
+  .container .title {
+    margin: 20px;
+  }
+  .container .title h2 {
+    background: linear-gradient(to right, #f32170, #ff6b08, #cf23cf, #eedd44);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+  }
+  .container .row {
+    position: relative;
+    width: 100%;
+    height: fit-content;
+    padding: 10px;
+    margin: 20px 0;
+  }
+  .container .row span {
+    position: absolute;
+    top: 20px;
+    left: 5rem;
+    color: rgba(0, 0, 0, 0.8);
+  }
+  .container .row input {
+    width: 78%;
+    height: 40px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    padding: 20px;
+    text-align: center;
+  }
+  .container .row input .invalid {
+    outline: 2px solid red;
+  }
+  .container .row input .valid {
+    outline: 2px solid red;
+  }
+  .container .row input::placeholder {
+    color: rgba(0, 0, 0, 0.8);
+    float: left;
+    margin-left: 2.6rem;
+  }
+  .container .row input[type="submit"] {
+    background: linear-gradient(90deg, #fc466b 0%, #3f5efb 100%);
+    padding: 10px;
+    color: #fff;
+    font-size: 20px;
+    font-family: Arial, inherit;
+    transition: 0.5s;
+    cursor: pointer;
+  }
+  .container .row input[type="submit"]:hover {
+    background: linear-gradient(90deg, #3f5efb 0%, #fc466b 100%);
+  }
+  .container .action .create-account {
+    margin: 20px;
+  }
+  .container .action .create-account p {
+    font-size: 18px;
+  }
+  .container .action .create-account p a {
+    padding: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: sans-serif;
+  }
+  .container .action .login-with ul {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .container .action .login-with ul li {
+    margin: 20px;
+  }
+  .container .action .login-with ul li a i {
+    font-size: 30px;
+    transition: 500ms;
+  }
+  .container .action .login-with ul li a i:hover {
+    color: #f32170;
+  }
+  
